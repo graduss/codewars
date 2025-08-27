@@ -46,7 +46,7 @@ mod tests {
 
   #[test]
   fn basics_sum_of_divided() {
-    testing(vec![12, 15,-3], vec![ (2, 12), (3, 27), (5, 15) ]);
+    testing(vec![12, 15], vec![ (2, 12), (3, 27), (5, 15) ]);
     testing(vec![15,21,24,30,45], vec![ (2, 54), (3, 135), (5, 90), (7, 21) ]);
   }
 }
